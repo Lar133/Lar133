@@ -1,25 +1,13 @@
-<!DOCTYPE html> 
-<html> 
-  
-<head> 
-    <title>PDF in HTML</title>
+{% extends 'base.html' %}
 
-</head> 
-<hr>  
-<body>
-    <p>
-        Bootstrap demo page
-        <a href="bootdemo.html">Bootdemo</a>
-    </p>
- <!--Second section-->
-    <center> 
-        <h1 style="color: green">HunterColumns</h1> 
-        <h3>Embedding the PDF file Using Object Tag</h3> 
-        <object data= "NonCaster - Hunter/Hunter COLUMNS.pdf" 
-                width="800"
-                height="500"> 
-        </object> 
-    </center> 
-</body> 
-  
-</html>
+{% block content %}
+    <span class="title"><h1>{% block title %} The Home Page of FlaskApp {%endblock %}</h1></span>
+    <div class="content">
+        <h2>This is the main Flask blueprint</h2>
+    </div>
+    
+{% endblock %}
+<p>
+    Hunter Columns Page
+    <a href="skills/Hunter/.HunterColumns.html" class="btn">Hunter Columns</a>
+</p>
