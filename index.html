@@ -16,16 +16,16 @@
     </head>
     <body>
         <nav>
-            <a href="{{url_for('pdf.Hunter.index') }}">Hunter</a>
-            <a href="{{ url_for('posts.index') }}">Posts</a>
-            <a href="{{url_for('posts.categories') }}">Categories</a>
-            <a href="{{url_for('questions.index')}}">Questions</a>
+            <a href="{{url_for('pdf.Hunter.HunterColumn.html') }}">Hunter</a>
+            <a href="{{ url_for('skillPages.Fighter') }}">Fighter</a>
+            <a href="{{url_for('skillPages.Rogue') }}">Rogue</a>
+            <a href="{{url_for('skillPages.Sylvan')}}">Sylvan</a>
 
-        <a href="skill pages/Hunter/HunterColumn.html" class="btn">Hunter Columns</a>
+        
         </nav>
         <hr>
         <div class="content">
-            {% block content %} {% endblock %}
+            <a href="skillPages/Hunter/HunterColumn.html" class="btn">Hunter Columns</a>
         </div>
     </body>
 </html>
