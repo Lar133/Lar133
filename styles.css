@@ -1,4 +1,5 @@
 
+.pdfs {width=1500px; height=1000px}
 h2 {width: 100%;}
 
 .title {margin: 5px; width: 100%}
@@ -11,6 +12,154 @@ h2 {width: 100%;}
 
 .title a { color: #00a36f; text-decoration: none;}
 
-nav a {color: #d64161; font-size: 2em;
-     margin-left: 20px; text-decoration: none;}
 
+.Hunter {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+                background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+               margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+               background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+               background-position: 50% 60%;}
+
+     .btnH {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;}
+
+     .btnH2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Fighter {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+                background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.fig {color:black; font-size: 22px; margin-top: 5px;
+                margin-left: 20px; background-color:lightgray
+            ; padding: 10px; text-align: center;
+                background-repeat: no-repeat; background-size: cover;
+                background-position: 50% 60%;}
+
+     .btnF {color:darkgrey); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:rgba(189, 186, 186, 0.658); }
+          
+     .btnF2 {color: black); font-size: .8em; background-color: rgb(167, 166, 166);
+               width: max-content; margin: 20px;}
+
+.Rogue {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+                background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.rog {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+                margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+                background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+                background-position: 50% 60%;}
+                    
+     .btnR {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;}
+                    
+     .btnR2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Dokour {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+            background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+            margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+            background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+            background-position: 50% 60%;}
+                         
+     .btnD {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;
+               text-align: center; }
+                         
+     .btnD2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+     
+
+.Eolas {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                              
+     .btnE {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;
+               text-align: center; }
+                              
+     .btnE2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Strumos {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.str {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                              
+     .btnS {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;}
+                              
+     .btnS2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Sylvan {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.syl {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                                        
+     .btnSy {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;}
+                                        
+     .btnSy2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Orix {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.ori {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                                        
+     .btnO {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;}
+                                        
+     .btnO2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+
+.Tiro {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.tir {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                         
+     .btnT {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;
+               text-align: center; }
+                         
+     .btnT2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+     
+.All {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+    background-color:#00a36f79; padding: 10px; text-align: center;}
+
+.all {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 50% 60%;}
+                         
+     .btnA {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
+               margin-left: 20px; background-color:#00a36f;
+               text-align: center; }
+                         
+     .btnA2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
+               width: max-content; margin: 20px;}
+     
+                    
+                    
+          
+          
