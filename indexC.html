@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Skills</title>
+    <link rel="stylesheet" href="styles.css"/>
+        <meta name="color-scheme" content="dark light">
+        <script src="index.js"></script>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <p class="all">Skill Pages</p>
+            <span id="skillgrid">
+                
+                <button id="one" onclick="document.location='skillPages/Hunter/HunterColumn.html'">Hunter</button>
+                <div id="two">
+                <a href="skillpages/Fighter/Fightercolumn.html">Fighter</a></div>
+                <div id="three">
+                <a href="skillPages/Rogue/RogueColumn.html">Rogue</a></div>
+                <div id="four">
+                <a href="skillPages/Sylvan/SylvanColumn.html">Sylvan</a></div>
+                <div id="five">
+                <a href="skillPages/Strumos/StrumosColumn.html">Strumos</a></div>
+                <div id="six">
+                <a href="skillPages/Dokour/DokourColumn.html">Dokour</a></div>
+                <div id="seven">
+                <a href="skillPages/Eolas/EolasColumn.html">Eolas</a></div>
+                <div id="eight">
+                <a href="skillPages/Tiro/TiroColumn.html">Tiro</a></div>
+                <div id="nine">
+                <a href="skillPages/Orix/OrixColumn.html">Orix</a></div>
+                <div id="ten">
+                <a href="skillPages/AllSkills/AllColumn.html">All Skills</a></div>
+            </span>
+        </div>
+    </div>
+    <div class="all">
+            <!-- Use any element to open/show the overlay navigation menu -->
+                <button class="all" onclick="openNav()">Open Class Skills</button>
+        All Skills:
+        <span> 
+        
+            <button onclick="document.location='skillPages/AllSkills/AllCompact.html'" class="btnA2">Levels 1-20</button>
+
+            <button onclick="document.location='skillPages/AllSkills/All1Liners.html'" class="btnA2">One Line Descriptions</button>
+       
+            <button onclick="document.location='skillPages/AllSkills/AllFullDescriptions.html'" class="btnA2">All Skills Full Descriptions</button>
+
+            <button onclick="document.location='../../index.html'" class="btnA2">All Classes</button>
+
+
+        </span>
+    </div>
+    <div class="content">
+        <center>
+            <object data = 'pdf/AllSkills/ALL_COLUMNS.pdf' 
+                style='width : 100vw; height : 100vh' >
+        </center>   
+    </div>
+   
+
+    
+      
+      
+      
+      
+</body>
+</html>

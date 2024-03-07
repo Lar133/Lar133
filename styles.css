@@ -19,13 +19,14 @@ h2 {width: 100%;}
 .hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
                margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
                background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
-               background-position: 50% 60%;}
+               background-position: 50% 60%;
 
      .btnH {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
                margin-left: 20px; background-color:#00a36f;}
 
      .btnH2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
                width: max-content; margin: 20px;}
+     }
 
 .Fighter {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
                 background-color:#00a36f79; padding: 10px; text-align: center;}
@@ -34,13 +35,14 @@ h2 {width: 100%;}
                 margin-left: 20px; background-color:lightgray
             ; padding: 10px; text-align: center;
                 background-repeat: no-repeat; background-size: cover;
-                background-position: 50% 60%;}
+                background-position: 50% 60%;
 
-     .btnF {color:darkgrey); font-size: 1em; width: max-content;
+     .btnF {color:darkgrey; font-size: 1em; width: max-content;
                margin-left: 20px; background-color:rgba(189, 186, 186, 0.658); }
           
-     .btnF2 {color: black); font-size: .8em; background-color: rgb(167, 166, 166);
+     .btnF2 {color: black; font-size: .8em; background-color: rgb(167, 166, 166);
                width: max-content; margin: 20px;}
+     }
 
 .Rogue {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
                 background-color:#00a36f79; padding: 10px; text-align: center;}
@@ -144,13 +146,13 @@ h2 {width: 100%;}
      .btnT2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
                width: max-content; margin: 20px;}
      
-.All {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
+.All {color:rgb(244, 247, 244); font-size: 3em; margin-top: 5px; width: 10vw; height: 5vh;
     background-color:#00a36f79; padding: 10px; text-align: center;}
 
-.all {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
+.all {color:rgb(244, 247, 244); font-size: 4ex; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
         background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
-        background-position: 50% 60%;}
+        background-position: 50% 60%;
                          
      .btnA {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
                margin-left: 20px; background-color:#00a36f;
@@ -158,6 +160,134 @@ h2 {width: 100%;}
                          
      .btnA2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
                width: max-content; margin: 20px;}
+     }
+
+ /* Curtain Overlay (background) */
+ .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 10%; /* 5% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 0px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    
+  }
+  #skillgrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    grid-auto-rows: 32vh;
+    padding: 1vw;
+  }
+  #one{
+    grid-column:1;
+    grid-row: 1;
+    background-image: url("images/HunterCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #two{
+    grid-column:1;
+    grid-row: 2;
+    background-image: url("images/FighterCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #three{
+    grid-column:1;
+    grid-row: 3;
+    background-image: url("images/RogueCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #four{
+    grid-column:2;
+    grid-row: 1;
+    background-image: url("images/SylvanCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #five{
+    grid-column:2;
+    grid-row: 2;
+    background-image: url("images/StrumosCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #six{
+    grid-column:2;
+    grid-row: 3;
+    background-image: url("images/DokourCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #seven{
+    grid-column:3;
+    grid-row: 1;
+    background-image: url("images/EolasCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #eight{
+    grid-column:3;
+    grid-row: 2;
+    background-image: url("images/TiroCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #nine{
+    grid-column:3;
+    grid-row: 3;
+    background-image: url("images/OrixCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  #ten{
+    grid-column:4;
+    grid-row: 1;
+    background-image: url("images/AllCard.png");
+    background-repeat: no-repeat; background-size: cover;
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay button {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #81818133;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay button:hover, .overlay button:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    font-size: 4em;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay button {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  } 
+              
+              
      
                     
                     
