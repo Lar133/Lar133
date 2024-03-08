@@ -12,15 +12,16 @@ h2 {width: 100%;}*/
 
 .btnCurtain {
   position: absolute; /* Position them relative to the browser window */
-  top: -65px; /* Position them outside of the screen */
+  left: 5px;
+  top: -40px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 100px; /* Set a specific width */
+  width: 200px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  background-color: rgb(13, 14, 13);
+  background-color: rgb(13, 14, 13); border-color: cyan; border-width: 3px;
 }
 .btnCurtain:hover {
   top: 0; /* On mouse-over, make the elements appear as they should */
