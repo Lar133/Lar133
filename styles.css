@@ -285,6 +285,54 @@ h2 {width: 100%;}
       top: 15px;
       right: 35px;
     }
+    #skillgrid{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      
+      grid-auto-rows: 32vh;
+      padding: 1vw;
+    }
+    #one{
+      grid-column:1;
+      grid-row: 1;
+    }
+    #two{
+      grid-column:1;
+      grid-row: 2;
+    }
+    #three{
+      grid-column:1;
+      grid-row: 3;
+    }
+    #four{
+      grid-column:2;
+      grid-row: 1;
+    }
+    #five{
+      grid-column:2;
+      grid-row: 2;
+    }
+    #six{
+      grid-column:2;
+      grid-row: 3;
+    }
+    #seven{
+      grid-column:3;
+      grid-row: 1;
+    }
+    #eight{
+      grid-column:3;
+      grid-row: 2;
+    }
+    #nine{
+      grid-column:3;
+      grid-row: 3;
+    }
+    #ten{
+      grid-column:4;
+      grid-row: 1;
+    }
+    
   } 
               
               
