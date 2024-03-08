@@ -18,8 +18,8 @@ h2 {width: 100%;}*/
 
 .hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
                background-color:#00a36f; padding: 10px; text-align: center;
-               background-image: url("images/HunPics.png"); background-repeat: no-repeat; /*background-size: cover;
-               background-position: 50% 60%;*/
+               background-image: url("images/HunPics.png"); ; background-repeat: no-repeat; 
+               background-size: cover; background-position: 50% 60%;
 
      .btnH {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
                margin-left: 20px; background-color:#00a36f;}
@@ -33,7 +33,7 @@ h2 {width: 100%;}*/
 
 .fig {color:black; font-size: 22px; margin-top: 5px;
                 margin-left: 20px; background-color:lightgray
-            ; padding: 10px; text-align: center;
+            ; padding: 10px; text-align: center; background-image: url("images/FigPics.png")
                 background-repeat: no-repeat; background-size: cover;
                 background-position: 50% 60%;
 
@@ -49,7 +49,7 @@ h2 {width: 100%;}*/
 
 .rog {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
                 margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-                background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+                background-image: url("images/RogPics.png"); background-repeat: no-repeat; background-size: cover;
                 background-position: 50% 60%;}
                     
      .btnR {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -63,7 +63,7 @@ h2 {width: 100%;}*/
 
 .dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
             margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-            background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+            background-image: url("images/DokPics.png"); background-repeat: no-repeat; background-size: cover;
             background-position: 50% 60%;}
                          
      .btnD {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -79,7 +79,7 @@ h2 {width: 100%;}*/
 
 .eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/EolPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                               
      .btnE {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -94,7 +94,7 @@ h2 {width: 100%;}*/
 
 .str {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/StrPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                               
      .btnS {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -108,7 +108,7 @@ h2 {width: 100%;}*/
 
 .syl {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/SylPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
      .btnSy {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -122,7 +122,7 @@ h2 {width: 100%;}*/
 
 .ori {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/OriPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
      .btnO {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -136,7 +136,7 @@ h2 {width: 100%;}*/
 
 .tir {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/TirPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                          
      .btnT {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -151,7 +151,7 @@ h2 {width: 100%;}*/
 
 .all {color:rgb(244, 247, 244); font-size: 4ex; margin-top: 5px;
         margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
-        background-image: url("images/koy.png"); background-repeat: no-repeat; background-size: cover;
+        background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;
                          
      .btnA {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
@@ -285,13 +285,16 @@ h2 {width: 100%;}*/
       top: 15px;
       right: 35px;
     }
+  }
+  @media (max-height: 500px) {
     #skillgrid{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       
-      grid-auto-rows: 32vh;
+      grid-auto-rows: 22vh;
       padding: 1vw;
     }
+  
     #one{
       grid-column:1;
       grid-row: 1;
