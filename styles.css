@@ -24,12 +24,16 @@ h2 {width: 100%;}*/
                
 
      .btnH {color:rgb(244, 247, 244); font-size: 1em; width: max-content; overflow: hidden;
-               background-color:#00a36f; float: center; cursor: pointer; width: 10vw;}
+               background-color:#00a36f; float: center; cursor: pointer; width: 10vw;
+              text-align: left;}
 
      .btnH2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgb(3, 49, 3);
-               width: max-content; float: center; cursor: pointer; width: 10vw; overflow: hidden;}
+               width: max-content; float: center; cursor: pointer; width: 10vw; overflow: hidden;
+               text-align: left;}
      }
-
+     .hunt btnH2:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
 .Fighter {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; width: 80vw; height: 10vh;
                 background-color:#00a36f79; padding: 10px; text-align: center;}
 
