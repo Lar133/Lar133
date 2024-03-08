@@ -295,42 +295,52 @@ h2 {width: 100%;}
     #one{
       grid-column:1;
       grid-row: 1;
+      background-image: none;
     }
     #two{
       grid-column:1;
       grid-row: 2;
+      background-image: none;
     }
     #three{
       grid-column:1;
       grid-row: 3;
+      background-image: none;
     }
     #four{
       grid-column:2;
       grid-row: 1;
+      background-image: none;
     }
     #five{
       grid-column:2;
       grid-row: 2;
+      background-image: none;
     }
     #six{
       grid-column:2;
       grid-row: 3;
+      background-image: none;
     }
     #seven{
       grid-column:3;
       grid-row: 1;
+      background-image: none;
     }
     #eight{
       grid-column:3;
       grid-row: 2;
+      background-image: none;
     }
     #nine{
       grid-column:3;
       grid-row: 3;
+      background-image: none;
     }
     #ten{
       grid-column:4;
       grid-row: 1;
+      background-image: none;
     }
     
   } 
