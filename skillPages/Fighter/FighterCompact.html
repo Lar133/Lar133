@@ -5,10 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Level 1-4 Fighter Skills</title>
     <link rel="stylesheet" href="../../styles.css"/>
+    <script src="../../index.js"></script>
 </head> 
 <hr>  
-<body  >
+<body>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <p class="all">Skill Pages</p>
+            <span id="skillgrid">
+            
+            <button id="one" onclick="document.location='../Hunter/HunterColumn.html'">Hunter</button>
+            <div id="two">
+            <a href="Fightercolumn.html">Fighter</a></div>
+            <div id="three">
+            <a href="../Rogue/RogueColumn.html">Rogue</a></div>
+            <div id="four">
+            <a href="../Sylvan/SylvanColumn.html">Sylvan</a></div>
+            <div id="five">
+            <a href="../Strumos/StrumosColumn.html">Strumos</a></div>
+            <div id="six">
+            <a href="../Dokour/DokourColumn.html">Dokour</a></div>
+            <div id="seven">
+            <a href="../Eolas/EolasColumn.html">Eolas</a></div>
+            <div id="eight">
+            <a href="../Tiro/TiroColumn.html">Tiro</a></div>
+            <div id="nine">
+            <a href="../Orix/OrixColumn.html">Orix</a></div>
+            <div id="ten">
+            <a href="../../index.html">All Skills</a></div>
+            </span>
+        </div> 
+    </div>
     <div class="fig">
+        <button class="btnCurtain" onclick="openNav()">Open Class Skills</button>
         Fighter Skills:
         <span> 
         
@@ -22,11 +56,7 @@
         
             <button onclick="document.location='FighterCompact20.html'" class="btnF2">Levels 1-20</button>
 
-            <button onclick="document.location='FighterColumn.html'" class="btnF2">List</button>
-       
-            <button onclick="document.location='FighterFullDescriptions.html'" class="btnF2">Fighter Skills Full Descriptions</button>
-
-            <button onclick="document.location='../../index.html'" class="btnF2">All Classes</button>
+            <button onclick="document.location='FighterFullDescriptions.html'" class="btnF2">Full Descriptions</button>
         </span>
     </div>
     <div class="content">
