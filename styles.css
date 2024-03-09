@@ -321,7 +321,7 @@ h2 {width: 100%;}*/
       right: 35px;
     }
   }
-  @media (max-height: 400px) or (max-width: 250px) {
+  @media (max-height: 600px) or (max-width: 300px) {
     #skillgrid{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
