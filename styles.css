@@ -329,6 +329,7 @@ h2 {width: 100%;}*/
       grid-auto-rows: 22vh;
       padding: 1vw;
     }
+    .btnCurtain { height: 10vw}
   
     #one{
       grid-column:1;
