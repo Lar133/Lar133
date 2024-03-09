@@ -11,20 +11,23 @@ h2 {width: 100%;}*/
     background-color: #f3f3f3; inline-size: 100%;}
 
 .btnCurtain {
+  transform: rotate(90deg);
   position: absolute; /* Position them relative to the browser window */
-  left: 5px;
-  top: -40px; /* Position them outside of the screen */
+  left: -14vw;
+  bottom: 40vh; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
-  padding: 15px; /* 15px padding */
-  width: 200px; /* Set a specific width */
+  padding: 0px; /* 15px padding */
+  width: 30vw; /* Set a specific width */
+  height: 5vw;
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  border-radius: 25px 25px 0 0; /* Rounded corners on the top right and bottom right side */
   background-color: rgb(13, 14, 13); border-color: cyan; border-width: 3px;
+  cursor: pointer;
 }
 .btnCurtain:hover {
-  top: 0; /* On mouse-over, make the elements appear as they should */
+  left: -12vw; /* On mouse-over, make the elements appear as they should */
 }
 
 
