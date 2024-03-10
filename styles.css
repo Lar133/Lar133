@@ -30,77 +30,61 @@ h2 {width: 100%;}*/
   left: -12vw; /* On mouse-over, make the elements appear as they should */
 }
 
+.hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
+              background-image: url("images/HunPics.png"); background-repeat: no-repeat; 
+              background-size: cover; background-position: 50% 60%; 
 
+      .btnH {color:black; font-size: 1em; width: max-content; overflow: hidden;
+              background-color: rgb(115, 170, 142); float: left; cursor: pointer;
+              text-align: left; margin-left: 1vw;}
 
-.hunt btnH2:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-.hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-               padding: 10px; text-align: center;
-               background-image: url("images/HunPics.png"); background-repeat: no-repeat; 
-               background-size: cover; background-position: 50% 60%; 
-
-               
       .btnH2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(124, 184, 153, 0.432);
-                width: max-content; float: center; cursor: pointer; overflow: hidden;
-                text-align: left;}
-     .btnH {color:black; font-size: 1em; width: max-content; overflow: hidden;
-               background-color: rgb(115, 170, 142); float: center; cursor: pointer;
+              width: max-content; float: center; cursor: pointer; overflow: hidden;
               text-align: left;}
      }
 
-.fig {color:rgb(248, 244, 244); font-size: 22px; margin-top: 5px;
-                margin-left: 20px; background-color:lightgray
-            ; padding: 10px; text-align: left; background-image: url("images/FigPics.png");
-                background-repeat: no-repeat; background-size: cover;
-                background-position: 50% 60%;}
+.fig {color:rgb(248, 244, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center; 
+              background-image: url("images/FigPics.png"); background-repeat: no-repeat; background-size: cover;
+              background-position: 50% 60%;}
 
      .btnF {color:rgb(61, 61, 61); font-size: 1em; width: max-content; float: left; overflow: hidden;
-                background-color:rgb(189, 186, 186); cursor: pointer;}
+              background-color:rgb(189, 186, 186); cursor: pointer; text-align: left; margin-left: 1vw;}
           
      .btnF2 {color: black; font-size: .8em; background-color: rgba(167, 166, 166, 0.726);
-               float: center; width: max-content; cursor: pointer;}
+              float: center; width: max-content; cursor: pointer; overflow: hidden;
+              text-align: left;}
 
-     .fig btnH2:not(:last-child) {
-      border-right: none;
-    }
-
-.rog {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-                margin-left: 20px; padding: 10px; text-align: center;
-                background-image: url("images/RogPics.png"); background-repeat: no-repeat; background-size: cover;
-                background-position: 50% 60%;}
+.rog {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
+              background-image: url("images/RogPics.png"); background-repeat: no-repeat; background-size: cover;
+              background-position: 50% 60%;}
                     
-     .btnR {color:black; font-size: 1em; width: max-content;float: center; cursor: pointer; overflow: hidden;
-              text-align: left; background-image: url("images/RogBack.png");cursor: pointer;}
+     .btnR {color:black; font-size: 1em; width: max-content; float: left; cursor: pointer; overflow: hidden;
+              text-align: left; background-image: url("images/RogBack.png"); margin-left: 1vw;}
                     
      .btnR2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(204, 209, 204, 0.514);
-               width: max-content; cursor: pointer; float: center; cursor: pointer; overflow: hidden;
+               width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-            margin-left: 20px;padding: 10px; text-align: center;
+.dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; margin-left: 20px; padding: 10px; text-align: center;
             background-image: url("images/DokPics.png"); background-repeat: no-repeat; background-size: cover;
             background-position: 50% 60%;}
                          
-     .btnD {color: rgba(48, 10, 10, 0.877); font-size: 1em; width: max-content;
-                background-color:rgb(234, 84, 107); cursor: pointer; float: center; cursor: pointer; overflow: hidden;
-                text-align: left;}
+     .btnD {color: rgba(48, 10, 10); font-size: 1em; width: max-content; float: left; cursor: pointer;  
+            overflow: hidden; background-color:rgb(234, 84, 107); text-align: left; margin-left: 1vw;}
                          
      .btnD2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(237, 106, 128, 0.5);
-               width: max-content; cursor: pointer; float: center; cursor: pointer; overflow: hidden;
+               width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+.eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; margin-left: 20px; padding: 10px; text-align: center;
         background-image: url("images/EolPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 60% 70%;}
                               
-     .btnE {color:rgb(72, 77, 14); font-size: 1em; width: max-content;
-                background-color: rgba(237, 226, 192); cursor: pointer; float: center; cursor: pointer; overflow: hidden;
-                text-align: left;}
+     .btnE {color:rgb(72, 77, 14); font-size: 1em; width: max-content; float: left; cursor: pointer; overflow: hidden;
+                background-color: rgba(237, 226, 192); text-align: left; margin-left: 1vw;}
                               
      .btnE2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(237, 226, 192, 0.705);
-               width: max-content; cursor: pointer; float: center; cursor: pointer; overflow: hidden;
+               width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
 .str {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
@@ -108,9 +92,8 @@ h2 {width: 100%;}*/
         background-image: url("images/StrPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                               
-     .btnS {color:rgb(39, 43, 11); font-size: 1em; width: max-content;
-              background-color:rgb(232, 247, 149); float: center; cursor: pointer; overflow: hidden;
-              text-align: left;}
+     .btnS {color:rgb(39, 43, 11); font-size: 1em; width: max-content; float: left; cursor: pointer; overflow: hidden;
+              background-color:rgb(232, 247, 149); text-align: left; margin-left: 1vw;}
                               
      .btnS2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(231, 250, 123, 0.664);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
@@ -121,9 +104,8 @@ h2 {width: 100%;}*/
         background-image: url("images/SylPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
-     .btnSy {color:rgb(21, 37, 21); font-size: 1em; width: max-content;
-              background-color:#05ee19; float: center; cursor: pointer; overflow: hidden;
-              text-align: left;}
+     .btnSy {color:rgb(21, 37, 21); font-size: 1em; width: max-content; float: left; cursor: pointer; overflow: hidden;
+              background-color:#05ee19; text-align: left; margin-left: 1vw;}
                                         
      .btnSy2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(15, 255, 27, 0.507);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
@@ -134,9 +116,8 @@ h2 {width: 100%;}*/
         background-image: url("images/OriPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
-     .btnO {color:rgb(244, 247, 244); font-size: 1em; width: max-content;
-              background-color: rgb(184, 128, 171); float: center; cursor: pointer; overflow: hidden;
-              text-align: left;}
+     .btnO {color:rgb(244, 247, 244); font-size: 1em; width: max-content; float: left; cursor: pointer; overflow: hidden;
+              background-color: rgb(184, 128, 171); text-align: left; margin-left: 1vw;}
                                         
      .btnO2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(143, 6, 109, 0.452);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
@@ -147,22 +128,19 @@ h2 {width: 100%;}*/
         background-image: url("images/TirPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                          
-     .btnT {color:rgb(10, 10, 10); font-size: 1em; width: max-content;
-               background-image: url("images/TiroBack.png"); float: center; cursor: pointer; overflow: hidden;
-                text-align: left;}
+     .btnT {color:rgb(10, 10, 10); font-size: 1em; width: max-content; float: center; cursor: pointer; overflow: hidden;
+               background-image: url("images/TiroBack.png"); text-align: left; margin-left: 1vw;}
                          
      .btnT2 {color: rgb(19, 19, 17); font-size: .8em; background-color: rgba(196, 197, 148, 0.61);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.all {color:rgb(238, 233, 237); font-size: 4ex; margin-top: 5px;
-        margin-left: 5px; background-color:#a3007a; padding: 10px; text-align: center;
+.all {color:rgb(238, 233, 237); font-size: 4ex; margin-top: 5px; margin-left: 5px; padding: 10px; text-align: center;
         background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
-        background-position: 80% 65%;
+        background-position: 60% 72%;
                          
-     .btnA {color:rgba(88, 45, 81); font-size: 1em; width: max-content;
-               background-color: rgb(228, 241, 228); float: center; cursor: pointer; overflow: hidden;
-                text-align: left; }
+     .btnA {color:rgba(88, 45, 81); font-size: 1em; width: max-content; float: center; cursor: pointer; overflow: hidden;
+               background-color: rgb(228, 241, 228); text-align: left; margin-left: 1vw;}
                          
      .btnA2 {color: rgba(88, 45, 81, 0.877); font-size: .8em; background-color: rgba(228, 241, 228, 0.582);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
@@ -283,8 +261,9 @@ h2 {width: 100%;}*/
   
   /* When you mouse over the navigation links, change their color */
   .overlay button:hover, .overlay button:focus {
-    color: #f1f1f1;
+    color: #351d1d;
   }
+  #ten:hover, #ten:focus{color: #f7ed83;}
   
   /* Position the close button (top right corner) */
   .overlay .closebtn {
@@ -362,8 +341,9 @@ h2 {width: 100%;}*/
       grid-column:4;
       grid-row: 1;
       background-image: none;
+      
     }
-    
+
   } 
               
               
