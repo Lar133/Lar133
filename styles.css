@@ -12,10 +12,10 @@ h2 {width: 100%;}*/
 .btnCurtain {
   transform: rotate(90deg);
   position: absolute; /* Position them relative to the browser window */
-  left: -14vw;
-  bottom: 40vh; /* Position them outside of the screen */
+  left: -14vw; /* Position them outside of the screen */
+  bottom: 40vh; 
   transition: 0.3s; /* Add transition on hover */
-  padding: 0px; /* 15px padding */
+  padding: 0px; /* xxpx padding */
   width: 30vw; /* Set a specific width */
   height: 5vw;
   text-decoration: none; /* Remove underline */
