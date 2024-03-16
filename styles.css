@@ -12,7 +12,7 @@ h2 {width: 100%;}*/
 .btnCurtain {
   transform: rotate(90deg);
   position: absolute; /* Position them relative to the browser window */
-  left: -14vw; /* Position them outside of the screen */
+  left: -12vw; /* Position them outside of the screen */
   bottom: 40vh; 
   transition: 0.3s; /* Add transition on hover */
   padding: 0px; /* xxpx padding */
@@ -279,7 +279,7 @@ h2 {width: 100%;}*/
       right: 35px;
     }
   }
-  @media screen and ((max-height: 520px) and (max-width: 520px)) {
+  @media screen and ((max-height: 520px) and (max-width: 320px)) {
     #skillgrid{
       display: grid;
       grid-template-columns: 1fr;
