@@ -290,6 +290,7 @@ h2 {width: 100%;}*/
     .btnCurtain { 
       height: 20vw; 
       left: 4vw;
+      writing-mode: vertical-rl;
       overflow: hidden;
     }
     #one{
