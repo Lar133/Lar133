@@ -10,23 +10,23 @@ h2 {width: 100%;}*/
     background-color: #f3f3f3; inline-size: 100%;}
 
 .btnCurtain {
-  transform: rotate(90deg);
   position: absolute; /* Position them relative to the browser window */
-  left: -16vw; /* Position them outside of the screen */
-  bottom: 40vh; 
+  writing-mode: vertical-rl;
+  left: -8px; /* Position them outside of the screen */
+  bottom: 30vh; 
   transition: 0.3s; /* Add transition on hover */
   padding: 0px; /* xxpx padding */
-  width: 30vw; /* Set a specific width */
-  height: 5vw;
+  width: 5vw; /* Set a specific width */
+  height: 200px;
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
-  border-radius: 25px 25px 0 0; /* Rounded corners on the top right and bottom right side */
+  border-radius: 0 25px 25px 0; /* Rounded corners on the top right and bottom right side */
   background-color: rgb(13, 14, 13); border-color: cyan; border-width: 3px;
   cursor: pointer;
 }
 .btnCurtain:hover {
-  left: -12vw; /* On mouse-over, make the elements appear as they should */
+  left: 0px; /* On mouse-over, make the elements appear as they should */
 }
 
 .hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
@@ -288,8 +288,8 @@ h2 {width: 100%;}*/
       padding: 1vw;
     }
     .btnCurtain { 
-      height: 10vw; 
-      left: 1vw;
+      height: 20vw; 
+      left: 0vw;
     }
     #one{
       grid-column:1;
