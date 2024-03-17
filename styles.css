@@ -282,7 +282,7 @@ h2 {width: 100%;}*/
     }
   }
 @media screen and (max-width: 200vh) {
-  @media screen and ((max-height: 812px)) {
+  @media screen and ((max-height: 600px)) {
     #skillgrid{
       display: grid;
       grid-template-columns: 1fr;
@@ -290,16 +290,16 @@ h2 {width: 100%;}*/
       grid-auto-rows: 18vh;
       padding: 1vw;
     }
-    .btnCurtain { 
+    /*.btnCurtain { 
       left: 30vw;
-height: 60vw;
-width: 6vh;
-      transform: rotate(270deg);
+height: 6vh;
+width: 60vw;
+writing-mode: reset;
       overflow: hidden;
-      bottom: -28vh; 
+      top: -15vh; 
     }
     .btnCurtain:hover {
-      left: 30vw;
+      left: 30vw;*/
     }
     #one{
       grid-column:1;
