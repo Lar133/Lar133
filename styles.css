@@ -31,7 +31,7 @@ h2 {width: 100%;}*/
 
 .hunt {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
               background-image: url("images/HunPics.png"); background-repeat: no-repeat; 
-              background-size: cover; background-position: 50% 60%; 
+              background-size: cover; background-position: 50% 60%;}
 
       .btnH {color:black; font-size: 1em; width: max-content; overflow: hidden;
               background-color: rgb(115, 170, 142); float: left; cursor: pointer;
@@ -40,7 +40,6 @@ h2 {width: 100%;}*/
       .btnH2 {color: rgba(231, 241, 225, 0.877); font-size: .8em; background-color: rgba(124, 184, 153, 0.432);
               width: max-content; float: center; cursor: pointer; overflow: hidden;
               text-align: left;}
-     }
 
 .fig {color:rgb(248, 244, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center; 
               background-image: url("images/FigPics.png"); background-repeat: no-repeat; background-size: cover;
@@ -134,7 +133,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.all {color:rgb(238, 233, 237); font-size: 4ex; margin-top: 2vh; margin-left: 1vw; text-align: center;
+.all {color:rgb(238, 233, 237); font-size: 22px; margin-top: 2vh; margin-left: 1vw; text-align: center;
         background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 60% 72%;}
                          
@@ -144,6 +143,9 @@ h2 {width: 100%;}*/
      .btnA2 {color: rgba(88, 45, 81, 0.877); font-size: .8em; background-color: rgba(228, 241, 228, 0.582);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
+.banner {color:rgb(238, 233, 237); font-size: 2em; margin-top: 2vh; margin-left: 1vw; text-align: center;
+        background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
+        background-position: 60% 72%;}
 
  /* Curtain Overlay (background) */
  .overlay {
@@ -284,14 +286,12 @@ h2 {width: 100%;}*/
       display: grid;
       grid-template-columns: 1fr;
       overflow: hidden;
-      grid-auto-rows: 20vh;
+      grid-auto-rows: 18vh;
       padding: 1vw;
     }
     .btnCurtain { 
-      height: 20vw; 
       left: 4vw;
-      writing-mode: vertical-rl;
-      text-orientation: sideways;
+      transform: rotate(90);
       overflow: hidden;
     }
     #one{
