@@ -13,7 +13,7 @@ h2 {width: 100%;}*/
   position: absolute; /* Position them relative to the browser window */
   writing-mode: vertical-rl;
   left: -4px; /* Position them outside of the screen */
-  bottom: 30vh; 
+  bottom: 20vh; 
   transition: 0.3s; /* Add transition on hover */
   padding: 0px; /* xxpx padding */
   width: 40px; /* Set a specific width */
@@ -291,14 +291,15 @@ h2 {width: 100%;}*/
       padding: 1vw;
     }
     .btnCurtain { 
-      left: 4vw;
-      writing-mode:vertical-rl;
-      transform: rotate(90);
+      left: 30vw;
+height: 60vw;
+width: 6vh;
+      transform: rotate(270deg);
       overflow: hidden;
-      bottom: 15vh; 
+      bottom: -28vh; 
     }
     .btnCurtain:hover {
-      left: 4vw;
+      left: 30vw;
     }
     #one{
       grid-column:1;
