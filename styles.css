@@ -281,7 +281,7 @@ h2 {width: 100%;}*/
       right: 35px;
     }
   }
-  @media screen and ((max-height: 600px) and (max-width: 200vh)) {
+  @media screen and ((max-height: 812px) and (max-width: 160vh)) {
     #skillgrid{
       display: grid;
       grid-template-columns: 1fr;
