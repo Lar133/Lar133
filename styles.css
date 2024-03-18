@@ -295,6 +295,7 @@ h2 {width: 100%;}*/
       writing-mode: unset;
       word-wrap: break-word;
       white-space: pre-wrap;
+      overflow: hidden;
     }
     #one{
       grid-column:1;
