@@ -290,16 +290,9 @@ h2 {width: 100%;}*/
       grid-auto-rows: 18vh;
       padding: 1vw;
     }
-    /*.btnCurtain { 
-      left: 30vw;
-height: 6vh;
-width: 60vw;
-writing-mode: reset;
-      overflow: hidden;
-      top: -15vh; 
-    }
-    .btnCurtain:hover {
-      left: 30vw;*/
+    .btnCurtain { 
+      word-wrap: break-word;
+      white-space: pre-wrap;
     }
     #one{
       grid-column:1;
