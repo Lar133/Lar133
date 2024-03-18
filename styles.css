@@ -63,7 +63,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; margin-left: 20px; padding: 10px; text-align: center;
+.dok {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
             background-image: url("images/DokPics.png"); background-repeat: no-repeat; background-size: cover;
             background-position: 50% 60%;}
                          
@@ -74,7 +74,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; margin-left: 20px; padding: 10px; text-align: center;
+.eol {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/EolPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 60% 70%;}
                               
@@ -85,8 +85,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.str {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+.str {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/StrPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                               
@@ -97,8 +96,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.syl {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-        margin-left: 20px; padding: 10px; text-align: center;
+.syl {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/SylPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
@@ -109,8 +107,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.ori {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-        margin-left: 20px; background-color:#00a36f; padding: 10px; text-align: center;
+.ori {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/OriPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                                         
@@ -121,8 +118,7 @@ h2 {width: 100%;}*/
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
 
-.tir {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px;
-        margin-left: 20px; padding: 10px; text-align: center;
+.tir {color:rgb(244, 247, 244); font-size: 22px; margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/TirPics.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 50% 60%;}
                          
@@ -132,18 +128,19 @@ h2 {width: 100%;}*/
      .btnT2 {color: rgb(19, 19, 17); font-size: .8em; background-color: rgba(196, 197, 148, 0.61);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
-
-.all {color:rgb(238, 233, 237); font-size: 22px; margin-top: 2vh; margin-left: 1vw; text-align: center;
+     
+.all {color:rgb(238, 233, 237); font-size: clamp(.5rem, 1.5rem, 4rem); margin-top: 5px; padding: 10px; text-align: center;
         background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 60% 72%;}
                          
      .btnA {color:rgba(88, 45, 81); font-size: 1em; width: max-content; float: center; cursor: pointer; overflow: hidden;
                background-color: rgb(228, 241, 228); text-align: left; margin-left: 1vw; }
                          
-     .btnA2 {color: rgba(88, 45, 81, 0.877); font-size: .8em; background-color: rgba(228, 241, 228, 0.582);
+     .btnA2 {color: rgba(88, 45, 81, 0.911); font-size: .8em; background-color: rgba(228, 241, 228, 0.582);
                width: max-content; float: center; cursor: pointer; overflow: hidden;
                text-align: left;}
-.banner {color:rgb(238, 233, 237); font-size: 2em; margin-top: 2vh; margin-left: 1vw; text-align: center;
+     
+.banner {color:rgb(238, 233, 237); font-size: 2em; margin-top: 2vh; text-align: center;
         background-image: url("images/AllCard.png"); background-repeat: no-repeat; background-size: cover;
         background-position: 60% 72%;}
 
@@ -273,7 +270,7 @@ h2 {width: 100%;}*/
   }
   
   /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 812px) {
+  @media screen and (max-width: 800px) {
     .overlay button {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
@@ -281,8 +278,8 @@ h2 {width: 100%;}*/
       right: 35px;
     }
   }
-@media screen and (max-width: 300vh) {
-  @media screen and ((max-height: 812px)) {
+
+  @media screen and (max-width: 800px) {
     .overlay-content #skillgrid {
       display: grid;
       grid-template-columns: 1fr;
@@ -349,7 +346,7 @@ h2 {width: 100%;}*/
       background-position: 0% 5%;
     }
   } 
-}
+
               
               
      
