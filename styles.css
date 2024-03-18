@@ -291,6 +291,7 @@ h2 {width: 100%;}*/
       padding: 1vw;
     }
     .btnCurtain { 
+      width: 15px;
       writing-mode: unset;
       word-wrap: break-word;
       white-space: pre-wrap;
