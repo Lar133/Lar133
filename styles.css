@@ -13,7 +13,7 @@ h2 {width: 100%;}*/
   position: absolute; /* Position them relative to the browser window */
   writing-mode: vertical-rl;
   left: -4px; /* Position them outside of the screen */
-  bottom: 20vh; 
+  bottom: 30vh; 
   transition: 0.3s; /* Add transition on hover */
   padding: 0px; /* xxpx padding */
   width: 40px; /* Set a specific width */
@@ -273,7 +273,7 @@ h2 {width: 100%;}*/
   }
   
   /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 812px) {
+  @media screen and (max-height: 612px) {
     .overlay button {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
@@ -281,9 +281,9 @@ h2 {width: 100%;}*/
       right: 35px;
     }
   }
-@media screen and (max-width: 200vh) {
-  @media screen and ((max-height: 812px)) {
-    #skillgrid{
+@media screen and (max-width: 300vh) {
+  @media screen and ((max-height: 612px)) {
+    .overlay-content #skillgrid {
       display: grid;
       grid-template-columns: 1fr;
       overflow: hidden;
@@ -296,46 +296,57 @@ h2 {width: 100%;}*/
       word-wrap: break-word;
       white-space: pre-wrap;
       overflow: hidden;
+      bottom: 20vh;
     }
     #one{
       grid-column:1;
       grid-row: 1;
+      background-position: 0% 5%;
     }
     #two{
       grid-column:1;
       grid-row: 2;
+      background-position: 0% 5%;
     }
     #three{
       grid-column:1;
       grid-row: 3;
+      background-position: 0% 5%;
     }
     #four{
       grid-column:1;
       grid-row: 4;
+      background-position: 0% 5%;
     }
     #five{
       grid-column:1;
       grid-row: 5;
+      background-position: 0% 5%;
     }
     #six{
       grid-column:1;
       grid-row: 6;
+      background-position: 0% 5%;
     }
     #seven{
       grid-column:1;
       grid-row: 7;
+      background-position: 0% 5%;
     }
     #eight{
       grid-column:1;
       grid-row: 8;
+      background-position: 0% 5%;
     }
     #nine{
       grid-column:1;
       grid-row: 9;
+      background-position: 0% 5%;
     }
     #ten{
       grid-column:1;
       grid-row: 10;
+      background-position: 0% 5%;
     }
   } 
 }
