@@ -170,7 +170,6 @@ h2 {width: 100%;}*/
   #skillgrid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
     grid-auto-rows: 32vh;
     padding: 1vw;
   }
